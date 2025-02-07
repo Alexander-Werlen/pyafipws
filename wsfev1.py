@@ -254,6 +254,7 @@ class WSFEv1(BaseWS):
                     'FchVtoPago': f.get('fecha_venc_pago'),
                     'MonId': f['moneda_id'],
                     'MonCotiz': f['moneda_ctz'],
+                    'CondicionIVAReceptorId': 6,
                     'CbtesAsoc': f['cbtes_asoc'] and [
                         {'CbteAsoc': {
                             'Tipo': cbte_asoc['tipo'],
@@ -392,6 +393,7 @@ class WSFEv1(BaseWS):
                     'FchVtoPago': f.get('fecha_venc_pago'),
                     'MonId': f['moneda_id'],
                     'MonCotiz': float(f['moneda_ctz']),
+                    'CondicionIVAReceptorId': 6,
                     'CbtesAsoc': [
                         {'CbteAsoc': {
                             'Tipo': cbte_asoc['tipo'],
@@ -574,6 +576,7 @@ class WSFEv1(BaseWS):
                     'FchVtoPago': f.get('fecha_venc_pago'),
                     'MonId': f['moneda_id'],
                     'MonCotiz': f['moneda_ctz'],
+                    'CondicionIVAReceptorId': 6,
                     'CbtesAsoc': [
                         {'CbteAsoc': {
                             'Tipo': cbte_asoc['tipo'],
@@ -763,6 +766,7 @@ class WSFEv1(BaseWS):
                     'FchVtoPago': f.get('fecha_venc_pago'),
                     'MonId': f['moneda_id'],
                     'MonCotiz': f['moneda_ctz'],
+                    'CondicionIVAReceptorId': 6,
                     'CbtesAsoc': [
                         {'CbteAsoc': {
                             'Tipo': cbte_asoc['tipo'],
